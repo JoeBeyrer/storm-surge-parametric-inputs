@@ -1,4 +1,6 @@
 # Storm Surge Parametric Inputs
+This repository provides code for creating and filtering parametric model inputs derived from the NHC Hurricane Archive. The filtering process uses overlapping data from the NOAA HRRR model. Additionally, the repository includes code to extract subset domains from the NOAA HRRR dataset based on extracted NHC hurricane tracks (by date, latitude, and longitude).
+![alt text](https://https://https://github.com/JoeBeyrer/storm-surge-parametric-inputs/blob/main/assets/hrrr_subset_track.png ?raw=true)
 
 ## Run Order
 1. Run each cell in `filterData.ipynb` to filter the NHC Hurricane Archive data

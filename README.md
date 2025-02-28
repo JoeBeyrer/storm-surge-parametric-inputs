@@ -21,8 +21,11 @@ It is recommended to run the following commands in order (in a conda environment
 Dependencies can be found in `requirements.txt`:
 - pandas
 - numpy
+- herbie-data
 - xarray
 - cfgrib
+- eccodes
 - matplotlib
+- cartopy
 
 All code was executed in a conda environment. `pip` requirements can be used with conda > 4.6.0. 

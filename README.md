@@ -8,11 +8,14 @@ This repository provides code for creating and filtering parametric model inputs
 2. Run `inpData.ipynb` cells to generate a dictionary-based dataset for the filtered data
 3. Run `herbieLoading.ipynb` to load HRRR data and create a custom subset for overlapping NHC Hurricane Archive Data
 
-## File Structure
+## Repository Structure
 - `filterData.ipynb`: Loads and filters NHC Hurricane Archive data to ensure compatibility with HRRR data
 - `inpData.ipynb`: Demonstrates various dataset options using dictionary formats to effectively capture time series data
 - `herbieLoading.ipynb`: Uses the Herbie tool to load HRRR data and create subsets corresponding to each hurricane track
+- `allNHCData.ipynb`: Creates a dataset from all available NHC Hurricane Archive data for data quality analysis
 - `loadHRRR.ipynb`: Provides an alternative HRRR loading method via AWS CLI. This method is included for completeness but is less convenient for our use case
+- `data`: Directory used to store all data files created and queried for dataset creation and analysis
+- `assets`: Contains all assets reference assets
 
 ## Requirements
 It is recommended to run the following commands in order (in a conda environment) to ensure the underlying C libraries are installed:
